@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web Personal</title>
+</head>
+<body>
+
+    <h1>Pagina Matucho</h1>
+    <p>Bienvenidos a la mejor pagina de la isae</p>
+
+    <h2>Mis materias favoritas</h2>
+    <ol>
+        <li>Lenguajes de Programación</li>
+        <li>Matemática</li>
+        <li>Historia</li>
+    </ol>
+
+    <h2>Comidas que me gustan</h2>
+    <ul>
+        <li>Locro</li>
+        <li>Lomito</li>
+        <li>Empanadas</li>
+    </ul>
+
+    <h2>Lenguajes de Programación</h2>
+    <ul>
+        <li>Ejemplos:
+            <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Tabla con nombre, edad y hobby -->
+    <h2>Mi tabla personal</h2>
+    <table border="3">
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Hobby</th>
+        </tr>
+        <tr>
+            <td>Matías</td>
+            <td>18</td>
+            <td>Fútbol</td>
+        </tr>
+        <tr>
+            <td>Sofía</td>
+            <td>17</td>
+            <td>Lectura</td>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>18</td>
+            <td>Música</td>
+        </tr>
+    </table>
+
+    <!-- Formulario con campos solicitados -->
+    <h2>Formulario de registro</h2>
+    <form action="#" method="post">
+        <!-- Campo de texto para nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <!-- Campo de email -->
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Lista desplegable de roles -->
+        <label for="rol">Rol:</label>
+        <select id="rol" name="rol">
+            <option value="estudiante">Estudiante</option>
+            <option value="profesor">Profesor</option>
+            <option value="invitado">Invitado</option>
+        </select><br><br>
+
+        <!-- Botón de envío -->
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
